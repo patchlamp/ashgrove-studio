@@ -23,7 +23,7 @@
    {
     "class": "client",
     "id": "work-1",
-    "alt": "A book cover drawing",
+    "alt": "A book jacket, laid flat: a lantern glowing on deep blue with moths around it, the title Moth & Lantern lettered in cream",
     "src": "images/work-1-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -65,7 +65,7 @@
    {
     "class": "client",
     "id": "work-2",
-    "alt": "A mural sketch",
+    "alt": "A deep green library wall lettered by hand: EVERY BOOK IS A DOOR arched in cream over a gold come in, low bookshelves beneath",
     "src": "images/work-2-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -107,7 +107,7 @@
    {
     "class": "client",
     "id": "work-3",
-    "alt": "A lettering study",
+    "alt": "A hot-sauce label on tomato red: a cream roundel lettered BITTER CREEK around a big red No. 7, two drawn chillies and a black SMOKED HABANERO ribbon",
     "src": "images/work-3-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -149,7 +149,7 @@
    {
     "class": "client",
     "id": "work-4",
-    "alt": "A poster layout",
+    "alt": "A kraft coffee bag with a teal label: a coral sun behind a dark peak and drifting fog, the words Low Fog lettered in cream",
     "src": "images/work-4-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -191,7 +191,7 @@
    {
     "class": "client",
     "id": "work-5",
-    "alt": "A badge design",
+    "alt": "A cream wedding invitation lettered Ada and Tom in a flowing italic, an olive sprig above, lying on sage linen beside a dusty-rose envelope with a wax seal",
     "src": "images/work-5-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -233,7 +233,7 @@
    {
     "class": "client",
     "id": "work-6",
-    "alt": "A print",
+    "alt": "Gold-leaf lettering on a dark green shop window: PEPPER & PINE arched over a small gold pine tree, GENERAL STORE beneath, inside a red painted frame",
     "src": "images/work-6-1200.jpg",
     "w": 1200,
     "h": 900,
@@ -295,32 +295,32 @@
    "items": [
     {
      "title": "Moth & Lantern",
-     "text": "Cover illustration for a made-up novel.",
+     "text": "The jacket for a made-up novel: the lantern drawn, the title lettered.",
      "image": "work-1"
     },
     {
-     "title": "The Long Arch",
-     "text": "A wall for a made-up library, 2025.",
-     "image": "work-2"
-    },
-    {
-     "title": "Label lettering",
-     "text": "Wordmarks for a made-up tea company.",
+     "title": "Bitter Creek No. 7",
+     "text": "A hot-sauce label for a made-up maker, in two inks.",
      "image": "work-3"
     },
     {
-     "title": "Night market poster",
-     "text": "Three colours, screen printed.",
-     "image": "work-4"
-    },
-    {
-     "title": "Trail badges",
-     "text": "A set of six for a made-up hiking club.",
+     "title": "Ada & Tom",
+     "text": "A wedding invitation, lettered and drawn for a made-up couple.",
      "image": "work-5"
     },
     {
-     "title": "Two peaks",
-     "text": "A small print series.",
+     "title": "The Long Arch",
+     "text": "A reading-room wall for a made-up library, 2025.",
+     "image": "work-2"
+    },
+    {
+     "title": "Low Fog",
+     "text": "Bag and label lettering for a made-up coffee roaster.",
+     "image": "work-4"
+    },
+    {
+     "title": "Pepper & Pine",
+     "text": "Gold-leaf window lettering for a made-up general store.",
      "image": "work-6"
     }
    ]
