@@ -1,0 +1,42 @@
+{
+  "class": "client",
+  "id": "work-4",
+  "alt": "A poster layout",
+  "src": "images/work-4-1200.jpg",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+    {
+      "src": "images/work-4-600.avif",
+      "w": 600,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/work-4-600.webp",
+      "w": 600,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/work-4-600.jpg",
+      "w": 600,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/work-4-1200.avif",
+      "w": 1200,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/work-4-1200.webp",
+      "w": 1200,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/work-4-1200.jpg",
+      "w": 1200,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "4:3"
+}
