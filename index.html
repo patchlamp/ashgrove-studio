@@ -6,12 +6,10 @@
   <title>Ashgrove Studio — Patchlamp's portfolio demo</title>
   <meta name="description" content="Ashgrove Studio is Patchlamp's demo portfolio: illustration and lettering, changed by text. Not a real studio.">
   <meta name="robots" content="noindex">
-  <!-- The pages are rendered from site.json by `site render` (lib/sitegen.py): change site.json, never this file. -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/look.css">
-  <script src="js/motion.js" defer></script>
 </head>
-<body class="page-home">
+<body>
+
   <p class="demo-bar">
     <strong>This is a demo.</strong> Ashgrove Studio is not a real portfolio — it is
     <a href="https://patchlamp.com/">Patchlamp's</a> portfolio demo. Text the demo number and whatever you ask for changes this site, usually in under a minute. It resets every night.
@@ -20,111 +18,63 @@
   <header class="site-header">
     <a class="wordmark" href="index.html">Ashgrove Studio</a>
     <nav class="site-nav" aria-label="Site">
-      <a href="index.html#work">Work</a>
-      <a href="index.html#about">About</a>
-      <a href="index.html#contact">Contact</a>
+      <a href="#work" aria-current="page">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
-    <a class="header-cta" href="#contact"><span class="cta-full">Get in touch</span><span class="cta-short">Contact</span></a>
   </header>
 
-  <main id="top">
-    <section class="hero-block hero--typographic" id="hero">
-      <div class="hero-copy">
-        <h1 class="hero-heading">Illustration and hand lettering for books, labels and walls.</h1>
-        <div class="hero-aside">
-          <p class="hero-sub">Commissions open in the spring and autumn.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact">Get in touch</a>
-            <a class="btn btn-secondary" href="#work">See the work</a>
-          </div>
+  <main>
+    <section class="hero">
+      <h1 class="hero-title">Ashgrove Studio</h1>
+      <p class="hero-tagline">Illustration and hand lettering for books, labels and walls.</p>
+      <div class="button-row">
+        <a class="button" href="#work">See the work</a>
+        <a class="button" href="#contact">Get in touch</a>
+      </div>
+    </section>
+    <section class="section" id="work">
+      <div class="section-inner reveal">
+        <p class="kicker">Work</p>
+        <h2>Selected work</h2>
+        <ul class="card-list three">
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A book cover drawing"><rect width="400" height="300" fill="#ece8f3"/><circle cx="140" cy="150" r="70" fill="#5f3b99" opacity=".85"/><rect x="200" y="80" width="130" height="140" fill="#d9cdee"/></svg><h3>Moth &amp; Lantern</h3><p class="card-meta">Cover illustration for a made-up novel.</p></li>
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A mural sketch"><rect width="400" height="300" fill="#f3efe6"/><path d="M40 240 C120 60 280 60 360 240" fill="none" stroke="#5f3b99" stroke-width="14" stroke-linecap="round"/><circle cx="200" cy="120" r="22" fill="#141414"/></svg><h3>The Long Arch</h3><p class="card-meta">A wall for a made-up library, 2025.</p></li>
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A lettering study"><rect width="400" height="300" fill="#e9eef0"/><text x="200" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#141414">Aa</text><path d="M90 205 H310" stroke="#5f3b99" stroke-width="6"/></svg><h3>Label lettering</h3><p class="card-meta">Wordmarks for a made-up tea company.</p></li>
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A poster layout"><rect width="400" height="300" fill="#f1ece4"/><rect x="70" y="60" width="110" height="180" rx="8" fill="#5f3b99"/><rect x="200" y="60" width="130" height="80" rx="8" fill="#141414"/><rect x="200" y="160" width="130" height="80" rx="8" fill="#d9cdee"/></svg><h3>Night market poster</h3><p class="card-meta">Three colours, screen printed.</p></li>
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A badge design"><rect width="400" height="300" fill="#eef0ea"/><circle cx="200" cy="150" r="95" fill="none" stroke="#141414" stroke-width="6"/><path d="M150 150 L190 190 L260 110" fill="none" stroke="#5f3b99" stroke-width="12" stroke-linecap="round"/></svg><h3>Trail badges</h3><p class="card-meta">A set of six for a made-up hiking club.</p></li>
+          <li><svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A print"><rect width="400" height="300" fill="#f4eef2"/><path d="M60 230 L140 90 L220 230 Z" fill="#5f3b99"/><path d="M180 230 L260 120 L340 230 Z" fill="#141414" opacity=".8"/></svg><h3>Two peaks</h3><p class="card-meta">A small print series.</p></li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="about">
+      <div class="section-inner reveal">
+        <p class="kicker">About</p>
+        <h2>About the studio</h2>
+        <p class="lede">Ashgrove Studio is one illustrator who draws for books, packaging and the occasional wall. Nothing here is real: it is a demo of the portfolio site Patchlamp builds.</p>
+        <p>Commissions open in the spring and autumn; a text is enough to change anything on this page.</p>
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <div class="section-inner reveal">
+        <p class="kicker">Contact</p>
+        <h2>Work together</h2>
+        <p class="lede">Say what you have in mind and when you need it by.</p>
+        <div class="button-row">
+          <a class="button" href="mailto:hello@example.com">hello@example.com</a>
         </div>
       </div>
     </section>
-    <section class="section work work--grid" id="work">
-      <div class="section-inner">
-        <div class="section-head">
-          <h2>Selected work</h2>
-        </div>
-        <ol class="work-list">
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-1-600.avif 600w, images/work-1-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-1-600.webp 600w, images/work-1-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-1-1200.jpg" srcset="images/work-1-600.jpg 600w, images/work-1-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="A book jacket, laid flat: a lantern glowing on deep blue with moths around it, the title Moth &amp; Lantern lettered in cream" loading="eager" decoding="async"></picture>
-            </figure>
-            <h3>Moth &amp; Lantern</h3>
-            <p>The jacket for a made-up novel: the lantern drawn, the title lettered.</p>
-          </li>
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-3-600.avif 600w, images/work-3-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-3-600.webp 600w, images/work-3-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-3-1200.jpg" srcset="images/work-3-600.jpg 600w, images/work-3-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="A hot-sauce label on tomato red: a cream roundel lettered BITTER CREEK around a big red No. 7, two drawn chillies and a black SMOKED HABANERO ribbon" loading="lazy" decoding="async"></picture>
-            </figure>
-            <h3>Bitter Creek No. 7</h3>
-            <p>A hot-sauce label for a made-up maker, in two inks.</p>
-          </li>
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-5-600.avif 600w, images/work-5-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-5-600.webp 600w, images/work-5-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-5-1200.jpg" srcset="images/work-5-600.jpg 600w, images/work-5-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="A cream wedding invitation lettered Ada and Tom in a flowing italic, an olive sprig above, lying on sage linen beside a dusty-rose envelope with a wax seal" loading="lazy" decoding="async"></picture>
-            </figure>
-            <h3>Ada &amp; Tom</h3>
-            <p>A wedding invitation, lettered and drawn for a made-up couple.</p>
-          </li>
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-2-600.avif 600w, images/work-2-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-2-600.webp 600w, images/work-2-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-2-1200.jpg" srcset="images/work-2-600.jpg 600w, images/work-2-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="A deep green library wall lettered by hand: EVERY BOOK IS A DOOR arched in cream over a gold come in, low bookshelves beneath" loading="lazy" decoding="async"></picture>
-            </figure>
-            <h3>The Long Arch</h3>
-            <p>A reading-room wall for a made-up library, 2025.</p>
-          </li>
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-4-600.avif 600w, images/work-4-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-4-600.webp 600w, images/work-4-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-4-1200.jpg" srcset="images/work-4-600.jpg 600w, images/work-4-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="A kraft coffee bag with a teal label: a coral sun behind a dark peak and drifting fog, the words Low Fog lettered in cream" loading="lazy" decoding="async"></picture>
-            </figure>
-            <h3>Low Fog</h3>
-            <p>Bag and label lettering for a made-up coffee roaster.</p>
-          </li>
-          <li class="work-item" data-reveal>
-            <figure class="work-media">
-              <picture><source type="image/avif" srcset="images/work-6-600.avif 600w, images/work-6-1200.avif 1200w" sizes="(min-width: 900px) 50vw, 100vw"><source type="image/webp" srcset="images/work-6-600.webp 600w, images/work-6-1200.webp 1200w" sizes="(min-width: 900px) 50vw, 100vw"><img src="images/work-6-1200.jpg" srcset="images/work-6-600.jpg 600w, images/work-6-1200.jpg 1200w" sizes="(min-width: 900px) 50vw, 100vw" width="1200" height="900" alt="Gold-leaf lettering on a dark green shop window: PEPPER &amp; PINE arched over a small gold pine tree, GENERAL STORE beneath, inside a red painted frame" loading="lazy" decoding="async"></picture>
-            </figure>
-            <h3>Pepper &amp; Pine</h3>
-            <p>Gold-leaf window lettering for a made-up general store.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-    <section class="section about about--band band" id="about">
-      <div class="section-inner">
-        <div class="about-grid">
-          <div class="about-copy">
-            <div class="about-head">
-              <h2>About the studio</h2>
-            </div>
-            <div class="about-body">
-              <p class="lede">Ashgrove Studio is one illustrator who draws for books, packaging and the occasional wall. Nothing here is real: it is a demo of the portfolio site Patchlamp builds.</p>
-              <p class="">Commissions open in the spring and autumn; a text is enough to change anything on this page.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section contact contact--plain" id="contact">
-      <div class="section-inner">
-        <div class="section-head">
-          <h2>Work together</h2>
-          <p class="lede">Say what you have in mind and when you need it by.</p>
-        </div>
-        <div class="action-row">
-          <a class="btn btn-secondary" data-mail href="mailto:hello@example.com">hello@example.com</a>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer class="site-footer">
-    <p class="copyright">&copy; 2026 Ashgrove Studio</p>
+    <!-- Keep this footer identical on every page. -->
+    <p class="copyright">&copy; 2026 Ashgrove Studio · a demo by <a href="https://patchlamp.com/">Patchlamp</a></p>
     <p class="patchlamp-badge"><a href="https://patchlamp.com/for/creatives?from=badge" rel="noopener">Patched by Patchlamp</a></p>
     <script src="https://patchlamp.com/s/site-chat.js" data-site="demo-portfolio" crossorigin="anonymous" defer></script>
     <script src="https://patchlamp.com/hit.js" data-site="demo-portfolio" crossorigin="anonymous" defer></script>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
