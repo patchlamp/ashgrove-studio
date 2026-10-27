@@ -338,11 +338,6 @@
    "heading": "Selected work",
    "items": [
     {
-     "title": "Night market",
-     "text": "Bag and label lettering for a made-up coffee roaster.",
-     "image": "work-4"
-    },
-    {
      "title": "Moth & Lantern",
      "text": "The jacket for a made-up novel: the lantern drawn, the title lettered.",
      "image": "work-1"
@@ -361,6 +356,11 @@
      "title": "The Long Arch",
      "text": "A reading-room wall for a made-up library, 2025.",
      "image": "work-2"
+    },
+    {
+     "title": "Low Fog",
+     "text": "Bag and label lettering for a made-up coffee roaster.",
+     "image": "work-4"
     },
     {
      "title": "Pepper & Pine",
