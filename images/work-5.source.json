@@ -1,0 +1,42 @@
+{
+  "class": "client",
+  "id": "work-5",
+  "alt": "A cream wedding invitation lettered Ada and Tom in a flowing italic, an olive sprig above, lying on sage linen beside a dusty-rose envelope with a wax seal",
+  "src": "images/work-5-1200.jpg",
+  "w": 1200,
+  "h": 900,
+  "variants": [
+    {
+      "src": "images/work-5-600.avif",
+      "w": 600,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/work-5-600.webp",
+      "w": 600,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/work-5-600.jpg",
+      "w": 600,
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/work-5-1200.avif",
+      "w": 1200,
+      "type": "image/avif"
+    },
+    {
+      "src": "images/work-5-1200.webp",
+      "w": 1200,
+      "type": "image/webp"
+    },
+    {
+      "src": "images/work-5-1200.jpg",
+      "w": 1200,
+      "type": "image/jpeg"
+    }
+  ],
+  "treatment": "none",
+  "ratio": "4:3"
+}
