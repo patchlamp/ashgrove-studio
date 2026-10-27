@@ -271,12 +271,55 @@
     ],
     "treatment": "none",
     "ratio": "4:3"
+   },
+   {
+    "class": "client",
+    "id": "own-hero-1",
+    "alt": "The studio's own lettered mark on rust: ASHGROVE arched over a drawn ash tree, Studio in a cream script, and a black ribbon reading books, labels, walls",
+    "slot": "hero",
+    "src": "images/own-hero-1-1600.jpg",
+    "w": 1600,
+    "h": 2000,
+    "variants": [
+     {
+      "src": "images/own-hero-1-800.avif",
+      "w": 800,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-1-800.webp",
+      "w": 800,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-1-800.jpg",
+      "w": 800,
+      "type": "image/jpeg"
+     },
+     {
+      "src": "images/own-hero-1-1600.avif",
+      "w": 1600,
+      "type": "image/avif"
+     },
+     {
+      "src": "images/own-hero-1-1600.webp",
+      "w": 1600,
+      "type": "image/webp"
+     },
+     {
+      "src": "images/own-hero-1-1600.jpg",
+      "w": 1600,
+      "type": "image/jpeg"
+     }
+    ],
+    "treatment": "none",
+    "ratio": "4:5"
    }
   ],
   "variants": {
-   "hero": "typographic",
+   "hero": "split",
    "about": "band",
-   "contact": "plain"
+   "contact": "card"
   }
  },
  "sections": [
@@ -287,7 +330,8 @@
     "text": "See the work",
     "href": "#work"
    },
-   "sub": "Commissions open in the spring and autumn."
+   "sub": "Commissions open in the spring and autumn.",
+   "image": "own-hero-1"
   },
   {
    "type": "work",

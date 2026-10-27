@@ -1,0 +1,7 @@
+/* Ashgrove Studio's own: on a phone the hero's lettered mark shows whole under the words, because a
+   strip cropped out of the middle cut the lettering in half (wick-4, B256). From 56em the split hero
+   sets it beside the words as the library does. */
+@media (max-width: 55.99em) {
+  .hero--split .hero-media { height: auto; }
+  .hero--split .hero-media img { height: auto; aspect-ratio: 4 / 5; }
+}
